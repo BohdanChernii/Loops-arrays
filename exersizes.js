@@ -13,14 +13,14 @@ function DNAtoRNA(dna) {
 
 third:https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript?fbclid=IwAR3sFI7sR8YRR_GaLbAEGy--0Uqmh_QL3djXsudzfZhl2ATbrwDDu8o-uJY
 const min = function(list){   
-    return Math.min.apply(null, list);
+    return Math.min(... list);
 }
 const max = function(list){
-    return Math.max.apply(null, list);
+    return Math.max(... list);
 }
 
 fourth:https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript?fbclid=IwAR0DUfCgT9D6TA5v6APj9wqXRRPn25arII0x2fefoyxd_UrZr96KRNqNq7Y
 function min(arr, toReturn) {
- let val = Math.min.apply(null, arr)
+ let val = Math.min(... arr)
   return toReturn === 'value' ? val : arr.indexOf(val)
 }
