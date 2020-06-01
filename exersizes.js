@@ -10,3 +10,11 @@ second:https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript?fbcl
 function DNAtoRNA(dna) {
   return dna.replace(/T/g,'U');
 }
+
+third:https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript?fbclid=IwAR3sFI7sR8YRR_GaLbAEGy--0Uqmh_QL3djXsudzfZhl2ATbrwDDu8o-uJY
+const min = function(list){   
+    return Math.min.apply(null, list);
+}
+const max = function(list){
+    return Math.max.apply(null, list);
+}
