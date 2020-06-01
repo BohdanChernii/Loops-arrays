@@ -3,3 +3,10 @@ first:https://www.codewars.com/kata/convert-a-string-to-an-array/train/javascrip
 function stringToArray(string){
   return string.split(' ');
 }
+
+
+second:https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript?fbclid=IwAR3D-5X2qEcRQRi9FnSoowmwN223QOXAyfATdOlwsA15IzwVkoO-tDcJUr0
+
+function DNAtoRNA(dna) {
+  return dna.replace(/T/g,'U');
+}
