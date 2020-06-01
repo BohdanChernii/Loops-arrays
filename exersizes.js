@@ -18,3 +18,9 @@ const min = function(list){
 const max = function(list){
     return Math.max.apply(null, list);
 }
+
+fourth:https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript?fbclid=IwAR0DUfCgT9D6TA5v6APj9wqXRRPn25arII0x2fefoyxd_UrZr96KRNqNq7Y
+function min(arr, toReturn) {
+ let val = Math.min.apply(null, arr)
+  return toReturn === 'value' ? val : arr.indexOf(val)
+}
