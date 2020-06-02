@@ -24,3 +24,8 @@ function min(arr, toReturn) {
  let val = Math.min(... arr)
   return toReturn === 'value' ? val : arr.indexOf(val)
 }
+
+sixth:https://www.codewars.com/kata/57f781872e3d8ca2a000007e/train/javascript
+function maps(x){
+return x.map(num=>num*2)
+}
